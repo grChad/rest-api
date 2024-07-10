@@ -1,0 +1,25 @@
+{
+	"name": "rest-api",
+	"version": "1.0.0",
+	"description": "prueba de nodejs rest-api",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon app.js"
+	},
+	"author": "io",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "2.8.5",
+		"express": "4.19.2",
+		"zod": "3.23.8"
+	},
+	"devDependencies": {
+		"nodemon": "3.1.4",
+		"standard": "17.1.0",
+		"typescript": "5.5.3"
+	},
+	"eslintConfig": {
+		"extends": "./node_modules/standard/eslintrc.json"
+	}
+}

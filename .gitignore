@@ -1,0 +1,6 @@
+# para el node_modules
+node_modules/
+# para el package-lock.json
+package-lock.json
+api.http
+.env
