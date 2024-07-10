@@ -1,6 +1,7 @@
 # para el node_modules
 node_modules/
 # para el package-lock.json
+.git/
 package-lock.json
 api.http
 .env
