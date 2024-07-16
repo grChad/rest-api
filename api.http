@@ -1,0 +1,19 @@
+### El get movies
+GET: http://localhost:8080/movies
+Content-Type: application/json
+
+### post movie
+POST http://localhost:8080/movies
+Content-Type: application/json
+
+{
+  "title": "El gato con botas",
+  "year": 2004,
+  "director": "Tu papa",
+  "duration": 142,
+  "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
+  "genre": [
+    "Drama", "Crime", "Game"
+  ],
+  "rate": 5.3
+}
